@@ -1,0 +1,115 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*____________________________✎____________________________*/
+
+/* la navbar*/
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+
+.logo{ /*logo principal*/
+    padding-top: 25px;
+}
+
+.IMAGES{ /*les logos de la nav*/
+    display: flex;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.IMAGES div{ /*les logos de la nav*/
+    width: 80px;
+}
+
+
+/*_________________________________________________________*/
+
+/* section 2 avec package et texte*/
+
+section:nth-child(2){
+    background-color: RGB(51, 77, 92);
+    color: white;
+    padding: 50px;
+}
+
+.texte{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+
+
+/*_________________________________________________________*/
+
+/* section 3 avec éclosion et texte*/
+
+section:nth-child(3){
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.eclosion p{
+    background-color: RGB(51, 77, 92);
+    color: white;
+    width: 15vw;
+    padding: 8px;
+    text-align: center;
+}
+
+.textsection{ /* COMPTE POUR LES AUTRES SECTION > la 5 et la 7 !!!!!!!!!!!!!!!!!!!!!!*/
+    width: -50px;
+    font-size: 15px;
+}
+
+.section-img-txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*_________________________________________________________*/
+
+/* section 4 les 4 logos*/
+
+
+
+
+
+/*_________________________________________________________*/
+
+/*footer*/
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color:black;
+}
+.images img {
+    height: 50px;
+    width: 50px;
+    margin: 20px 0;
+    margin-right: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: lightgray;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    font-size: x-small;
+}
